@@ -61,9 +61,10 @@ function opensrs_sitelock_getProductType($key = null)
 {
     $certs = array
     (
-        'Basic'         =>  'sitelock_basic',
-        'Premium'       =>  'sitelock_premium',
-        'Enterprise'    =>  'sitelock_enterprise'
+        'Find'         =>  'sitelock_find',
+        'Fix'          =>  'sitelock_fix',
+        'Prevent'      =>  'sitelock_prevent',
+        'Enterprise'   =>  'sitelock_enterprise'
     );
     
     if(isset($key))
